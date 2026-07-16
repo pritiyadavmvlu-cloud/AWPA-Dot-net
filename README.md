@@ -1,8 +1,7 @@
 # AWPA-Dot-net
 
-a. Create methods add(). multiply(),substract()
-,divide() with suitable parameters and call these methods using concept of C# delegate.
-
+a. Create methods add(). multiply(),substract(),divide() with suitable parameters and call these methods using concept of C# delegate.
+CODE:-
 using System;
 delegate void Operation(int a, int b);
 class Calculator{
@@ -38,7 +37,7 @@ public class Program
 
 
 b.Write a program using multicast delegate.
-
+CODE:-
 using System;
 delegate void Message();
 class Demo{
@@ -60,10 +59,11 @@ public class Program{
  }}
 
 
+
  
 c.Create a class BankAccount with AccountNumber and Balance.Implement property for Balance with validation (Balance cannot be negative)
-
- using System;
+CODE:-
+using System;
 class BankAccount
 {
  public int AccountNumber { get; set; }
@@ -93,3 +93,32 @@ class Program
  b.Balance = -500;
  Console.WriteLine("Priti Yadav T054");
  }}
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4. Create an ASP.NET Web Forms application using simple server controls.
+a. Design a Student Registration Form using the following ASP.NET controls:
+i. Label and TextBox to accept Student Name
+ii. RadioButton to select Gender (Male/Female)
+iii. DropDownList to select Course (BSc IT, BSc CS, BCA)
+iv. CheckBox for accepting Terms & Conditions
+v. Calendar control to select Date
+vi. Button control to submit the form
+vii. Label control to display the output
+CODE:-
+
+
+
+
+
+
+b. Create a Registration form to demonstrate use of various Validation controls.
+CODE:-
+
+
+
+c. Create Web Form to demonstrate use of Adrotator Control.
+CODE:-
+
+
+
+ 
