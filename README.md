@@ -1,5 +1,4 @@
-# AWPA-Dot-net
-
+3.Write The Program For The Followings:
 a. Create methods add(). multiply(),substract(),divide() with suitable parameters and call these methods using concept of C# delegate.
 CODE:-
 using System;
