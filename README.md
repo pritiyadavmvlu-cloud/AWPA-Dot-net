@@ -95,6 +95,7 @@ class Program
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 4. Create an ASP.NET Web Forms application using simple server controls.
+
 a. Design a Student Registration Form using the following ASP.NET controls:
 i. Label and TextBox to accept Student Name
 ii. RadioButton to select Gender (Male/Female)
@@ -104,10 +105,29 @@ v. Calendar control to select Date
 vi. Button control to submit the form
 vii. Label control to display the output
 CODE:-
-
-
-
-
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+public partial class _Default : Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+    }
+    protected void CheckBox1_CheckedChanged(object sender, EventArgs e)
+    {
+    }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        string name = TextBox1.Text;
+        string Gender = RadioButtonList1.Text;
+        string Course = DropDownList1.Text;
+        string Date=Calendar1.SelectedDate.ToString();
+        Label2.Text = name + "<br/>" + Gender + "<br/>" + Course + "<br/>" + Date + "<br/>";
+    }
+}
 
 
 b. Create a Registration form to demonstrate use of various Validation controls.
